@@ -1,0 +1,104 @@
+site_name: BY Protect User Guide
+site_description: How to set up and use BY Protect, the personal safety app from BY Technology.
+site_author: BY Technology
+site_url: https://guptanitish.com/by-protect-user-guide/
+copyright: Copyright &copy; 2026 BY Technology · <a href="mailto:support@bytechnology.org">support@bytechnology.org</a>
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: material/email-outline
+      link: mailto:support@bytechnology.org
+      name: Email support
+    - icon: material/web
+      link: https://bytechnology.org/
+      name: bytechnology.org
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Install and first launch: getting-started/install.md
+      - Grant permissions: getting-started/permissions.md
+      - Add emergency contacts: getting-started/contacts.md
+      - Arm monitoring for the first time: getting-started/first-arm.md
+  - Everyday use:
+      - The Dashboard: daily-use/dashboard.md
+      - Arming and stopping: daily-use/arming.md
+      - Monitoring presets: daily-use/presets.md
+  - Alerts:
+      - How alerts work: alerts/levels.md
+      - Silent alert countdown: alerts/silent-alert.md
+      - No-movement check: alerts/no-movement.md
+      - What your contacts receive: alerts/messages.md
+  - SOS:
+      - Ways to trigger SOS: sos/triggers.md
+      - What happens during SOS: sos/during-sos.md
+      - Stopping SOS: sos/stopping.md
+  - Emergency contacts: contacts.md
+  - Events and evidence:
+      - Event History: events/history.md
+      - Event Detail: events/detail.md
+      - Export and delete: events/export-delete.md
+  - Settings reference: settings.md
+  - Privacy and your data: privacy.md
+  - Limitations and safety notes: limitations.md
+  - Troubleshooting and FAQ: troubleshooting.md
+  - Glossary: glossary.md
+  - Support: support.md
