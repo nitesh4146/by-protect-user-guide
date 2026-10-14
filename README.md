@@ -17,7 +17,7 @@ mkdocs build --strict # static site in ./site
 
 ## Publish
 
-The live site is https://guptanitish.com/by-protect-user-guide/.
+The live site is https://nitesh4146.github.io/by-protect-user-guide/.
 
 This folder is the source of truth. The public repo
 `nitesh4146/by-protect-user-guide` is a mirror of it (pta-app itself is
