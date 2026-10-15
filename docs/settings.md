@@ -99,7 +99,7 @@ Built-in sounds: Alarm siren, Fire alarm, Fire truck siren, Fire truck siren (sh
 | Setting | Default | Options | What it does |
 |---|---|---|---|
 | **Send SMS automatically during SOS** | On | On / Off | Texts every trusted contact the moment SOS fires, without opening the SMS app. Needs SMS permission. If it's off or not granted, SOS opens the SMS app for you to send instead. **Silent alerts only work with this on.** |
-| **Call directly during SOS** | Off | On / Off | Places the call automatically instead of opening the dialer. Needs Phone permission. Only one contact can be called. |
+| **Call directly during SOS** | Off | On / Off | Places the call automatically instead of opening the dialer. Needs Phone permission. SOS makes one call: your emergency service if you added one, otherwise your first callable contact. Numbers like 100 and 112 always open the dialer for you to tap Call. |
 | **Delay before calling** | 20s | None, 10s, 20s, 30s, 60s, 120s | The alarm sounds for this long before the call is placed, because a live call quiets the alarm. |
 | **No movement after silent alert** | 1 min | Off, 30s, 1 min, 2 min, 5 min | After a silent alert is sent, staying still this long starts a full SOS, with a 15-second vibrating warning first. See [No-movement check](alerts/no-movement.md). |
 

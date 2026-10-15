@@ -8,6 +8,13 @@ When the app reaches **Level 2 · Silent Alert**, it gives you a chance to stop 
 - An amber **Silent alert sending in 15s** banner on the Dashboard that counts down to 0, with a **Cancel** button.
 - The notification text changes to **Silent alert sending — tap Cancel Alert to stop it**, with a live countdown timer.
 
+<div class="screens" markdown>
+<figure markdown>
+![Silent alert countdown banner on the Dashboard](../assets/screens/dashboard-silent-alert.png){ .screen }
+<figcaption>Silent alert countdown</figcaption>
+</figure>
+</div>
+
 !!! warning "Keep Vibration on"
     The vibration comes from **Settings → SOS actions → Vibration**, which is on by default. If you turn it off, a silent alert counts down with **no vibration at all**. With the screen off, you'd have no way of knowing it was happening.
 

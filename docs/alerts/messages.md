@@ -39,8 +39,9 @@ The alert is longer than a single text, so each contact usually receives it as *
 | **Call** | Call, if they are the first callable contact | SMS |
 | **SMS and call** | SMS, and a call if they are the first callable contact | SMS |
 
-- A silent alert texts **every** enabled contact and never calls.
-- A full SOS places **one** call, to the first enabled contact set to **Call** or **SMS and call**, after the **Delay before calling** (default 20 seconds), so the alarm can sound first.
+- A silent alert texts **every** enabled person and never calls.
+- **Emergency services such as the police are never texted**, not even by a silent alert. They only get the SOS call. See [Add the police](../contacts.md#add-the-police-or-another-emergency-service).
+- A full SOS places **one** call after the **Delay before calling** (default 20 seconds), so the alarm can sound first. It goes to an enabled emergency service if you have one, otherwise to the first enabled person set to **Call** or **SMS and call**.
 - Contacts with **Notify during SOS** turned off receive nothing.
 
 ## Without automatic SMS

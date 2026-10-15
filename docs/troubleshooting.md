@@ -80,7 +80,11 @@ Yes. Detection, recording, SOS SMS and calls work without internet. Only the opt
 
 ## Will the app call the police?
 
-No. It only texts and calls your trusted contacts. See [Limitations and safety notes](limitations.md).
+Only if you add the police as an [emergency service contact](contacts.md#add-the-police-or-another-emergency-service). Even then, for 100, 112 and similar numbers your dialer opens with the number ready and **you tap Call**; Android doesn't let apps call emergency numbers by themselves. The police are never texted. See [Limitations and safety notes](limitations.md#emergency-services-need-you-to-tap-call).
+
+## The dialer didn't open during SOS
+
+Android blocks apps from opening other screens while they're in the background. Allow **Display over other apps** in **Setup**, or tap **Call Police** in the SOS notification or on the Dashboard. If the screen is locked, unlock it first.
 
 ## Can someone stop an SOS by taking my phone?
 

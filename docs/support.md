@@ -17,4 +17,4 @@ It helps if you include:
 - a screenshot of the Dashboard's **Readiness** tiles, if monitoring isn't working.
 
 !!! danger "In an emergency"
-    BY Protect is a support tool, not a replacement for emergency services. It never contacts them by itself. If you are in immediate danger, call your local emergency number.
+    BY Protect is a support tool, not a replacement for emergency services. It can open your dialer for the police if you add them as a contact, but you still tap Call. If you are in immediate danger, call your local emergency number.

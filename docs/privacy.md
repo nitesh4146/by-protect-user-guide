@@ -25,7 +25,7 @@ BY Protect has **no server or cloud account** of its own. These are stored only 
 | When | What | Where to |
 |---|---|---|
 | SOS or silent alert | An SMS with your location | Your trusted contacts |
-| Full SOS, if you set up calling | A phone call | Your first callable contact |
+| Full SOS, if you set up calling | A phone call (no message) | Your emergency service if you added one, otherwise your first callable contact |
 | You tap **share** on an event | The video clip and summary you choose to share | Wherever you send it |
 | While armed, **only if Speech language monitor is on** | Short **text** snippets of speech (never audio) | A cloud service that checks for bad language, distress and threats |
 

@@ -11,6 +11,13 @@ After a silent alert has been **sent**, BY Protect watches for the next **10 min
     - a red **No movement — SOS in 15s** banner on the Dashboard that counts down to 0, with an **I'm OK** button,
     - the notification text **No movement detected — tap I'm OK to stop SOS**, with an **I'm OK** button.
 
+<div class="screens" markdown>
+<figure markdown>
+![No-movement warning banner on the Dashboard](../assets/screens/dashboard-no-movement.png){ .screen }
+<figcaption>No-movement warning</figcaption>
+</figure>
+</div>
+
 !!! warning "Keep Vibration on"
     With **Vibration** turned off, the warning is only on screen and in the notification. You won't feel anything, so you could miss it and a full SOS would start.
 

@@ -58,7 +58,7 @@ BY Protect is a personal safety app for Android. Once **armed**, it watches for 
 - **Nothing happens until you arm.** Monitoring, detection, recording and every SOS shortcut work only while BY Protect is armed.
 - **One cue is never enough.** A single sound or bump does not raise an alarm. The app combines several cues before acting, with two exceptions: an impact followed by stillness, and clearly threatening speech. See [How alerts work](alerts/levels.md).
 - **You can cancel a silent alert.** A Level 2 silent alert waits 15 seconds before it texts your contacts. Tap **Cancel** if you're safe.
-- **It alerts your contacts, not the emergency services.** In immediate danger, call your local emergency number. See [Limitations and safety notes](limitations.md).
+- **It alerts your contacts, and the police only if you add them.** Emergency services are only ever called, never texted, and for 100 or 112 you tap Call. In immediate danger, call your local emergency number. See [Limitations and safety notes](limitations.md).
 - **Re-arm after a restart.** Monitoring doesn't switch itself back on after the phone restarts.
 - **Your data stays on your phone.** Events, video and location are stored only on the phone. The only things that leave it are listed in [Privacy and your data](privacy.md).
 

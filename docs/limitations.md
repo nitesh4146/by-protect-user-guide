@@ -2,9 +2,17 @@
 
 BY Protect makes it faster and easier to get help, but it can't guarantee your safety. Please read this page before you rely on it.
 
-## It doesn't contact emergency services
+## Emergency services need you to tap Call
 
-BY Protect only texts and calls **the trusted contacts you add**. It never calls the police, an ambulance or any emergency number by itself. If you're in immediate danger, call your local emergency number yourself. Make sure your contacts know what to do when they receive an alert.
+BY Protect texts and calls **the contacts you add**. You can add the police or another [emergency service](contacts.md#add-the-police-or-another-emergency-service), but:
+
+- **Android doesn't let apps call 100, 112 or other emergency numbers by themselves.** During SOS your dialer opens with the number ready, and you have to tap **Call**.
+- **From your bag or with the app closed**, the dialer only opens if you allow **Display over other apps**. Otherwise use the **Call Police** button in the SOS notification.
+- **If the screen is locked** (for example by [Lock device on SOS](settings.md#lock-device-on-sos)), you may need to unlock it to place the call.
+- **Emergency services are never texted**, so they don't receive your location from the app. Tell them where you are on the call.
+- **Without an emergency service saved**, BY Protect doesn't contact the emergency services at all.
+
+If you're in immediate danger, call your local emergency number yourself. Make sure your contacts know what to do when they receive an alert.
 
 ## It only protects you while armed
 

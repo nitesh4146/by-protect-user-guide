@@ -12,8 +12,8 @@ While armed, BY Protect detects individual **cues**: a face close by, someone ap
 
 A manual SOS (button, notification, volume buttons or voice) always goes straight to **Level 3**.
 
-!!! info "No level calls the emergency services"
-    Every level notifies only your own trusted contacts. BY Protect never calls the police or an ambulance by itself.
+!!! info "Emergency services and automatic alerts"
+    A silent alert never contacts emergency services. A full SOS calls the police or another [emergency service](../contacts.md#add-the-police-or-another-emergency-service) only if you added one, and for an automatic SOS only if you turned on **Also call on automatic SOS** for it. For short numbers such as 100 and 112 you tap **Call** in the dialer.
 
 ## What raises each level
 

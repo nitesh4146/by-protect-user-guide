@@ -43,6 +43,9 @@ SMS
 Phone
 :   Lets SOS place a call by itself if you turn on [Call directly during SOS](../settings.md#direct-emergency-actions). Without it, SOS opens the dialer with the number filled in.
 
+Display over other apps
+:   Lets SOS open your phone's dialer for the police or another emergency number while the app isn't on screen, for example when the phone is in your bag. Android blocks this otherwise. Tapping **Allow** opens a system screen where you switch it on for BY Protect. Without it, use the **Call Police** button in the SOS notification.
+
 !!! warning "Grant SMS for hands-free alerts"
     A [silent alert](../alerts/silent-alert.md) can only reach your contacts through automatic SMS. If SMS permission is missing, silent alerts can't send anything.
 

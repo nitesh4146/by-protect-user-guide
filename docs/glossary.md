@@ -6,6 +6,9 @@ Armed
 Cue
 :   One thing the app detected, such as a loud sound or an impact. Cues are combined to decide on an alert.
 
+Emergency service
+:   A contact such as the police (100) or the national emergency number (112). It's only ever called, never texted, and for short numbers you tap Call in the dialer. See [Emergency contacts](contacts.md#add-the-police-or-another-emergency-service).
+
 Event
 :   A saved record of an alert or SOS, with its cues, location, video and actions. See [Event History](events/history.md).
 

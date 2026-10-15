@@ -11,7 +11,7 @@ The moment SOS starts:
 4. The last few video clips (default **3** clips of 30 seconds) are **protected** so they aren't overwritten.
 5. Your location is captured.
 6. **Your contacts are texted.** See [What your contacts receive](../alerts/messages.md).
-7. After the **Delay before calling** (default **20 seconds**), the app calls your first callable contact.
+7. After the **Delay before calling** (default **20 seconds**), the app makes **one call**: to your emergency service if you added one, otherwise to your first callable contact. For 100, 112 and other short emergency numbers your dialer opens with the number ready, and you tap **Call**.
 8. The event is saved in Event History, with a list of the actions taken.
 
 <div class="screens" markdown>
@@ -25,6 +25,10 @@ The moment SOS starts:
 </figure>
 </div>
 
-BY Protect doesn't call the emergency services. If you can, call them yourself.
+## Calling the police
+
+If you added the police or another [emergency service](../contacts.md#add-the-police-or-another-emergency-service), a **Call Police (100)** button appears on the Dashboard during SOS, and **Call Police** in the SOS notification. Tap it to open the dialer with the number ready, then tap **Call**.
+
+Android doesn't let apps call emergency numbers by themselves, so you always tap **Call** for 100, 112 and similar numbers. If no emergency service is saved, BY Protect doesn't contact the emergency services; call them yourself if you can.
 
 While SOS is active, more SOS triggers are ignored and automatic detection pauses, so the alarm and vibration can't set off another alert.
