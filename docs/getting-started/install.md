@@ -2,7 +2,7 @@
 
 ## What you need
 
-- An Android phone with a camera, microphone and motion sensors.
+- An Android phone that meets the [device requirements](device-requirements.md): Android 10 or newer, 4 GB of RAM or more (6 GB recommended), with a camera, microphone, motion sensor and GPS.
 - At least **200 MB** of free storage. This is the default for **Minimum free storage**. Monitoring won't start with less.
 - A mobile plan that can send SMS, so the app can text your contacts.
 - A screen lock (PIN, pattern or biometric) is recommended if you plan to use [Lock device on SOS](../settings.md#lock-device-on-sos).

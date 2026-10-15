@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# BY Protect - Personal Threat Alert
+# Author: Robolabs AI, India
+#
 # Publishes this folder to the public docs repo, whose GitHub Actions
 # workflow builds it and deploys it to GitHub Pages:
 #   https://nitesh4146.github.io/by-protect-user-guide/

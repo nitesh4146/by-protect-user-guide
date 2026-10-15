@@ -74,6 +74,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
+      - Device requirements: getting-started/device-requirements.md
       - Install and first launch: getting-started/install.md
       - Grant permissions: getting-started/permissions.md
       - Add emergency contacts: getting-started/contacts.md
